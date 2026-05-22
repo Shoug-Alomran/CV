@@ -1,8 +1,7 @@
 site_name: Shoug Alomran
 site_description: Software Engineer & Cybersecurity Specialist building structured digital systems, modern web platforms, and documentation-driven experiences.
 site_url: https://cv.shoug-tech.com/
-repo_name: Shoug-Alomran/CV
-repo_url: https://github.com/Shoug-Alomran/CV
+copyright: Made by <a href="https://blueprint.shoug-tech.com" target="_blank" rel="noreferrer">Blueprint</a>
 
 theme:
   name: material
@@ -52,6 +51,7 @@ extra_javascript:
   - assets/javascripts/identity.js
 
 extra:
+  generator: false
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/Shoug-Alomran

@@ -10,6 +10,8 @@ import {
   FileSearch,
   Github,
   GraduationCap,
+  Download,
+  Eye,
   Layers3,
   Linkedin,
   LockKeyhole,
@@ -210,6 +212,8 @@ export const approach = [
 
 export const commandItems = [
   { label: "View Projects", href: "#projects", icon: ArrowUpRight },
+  { label: "View CV", href: "/cv/", icon: Eye },
+  { label: "Download CV", href: "/cv/?download=1", icon: Download },
   { label: "Open Blueprint Studio", href: "https://blueprint.shoug-tech.com", icon: Sparkles },
   { label: "Contact Shoug", href: "#contact", icon: Mail },
   { label: "Explore Capabilities", href: "#capabilities", icon: Boxes },

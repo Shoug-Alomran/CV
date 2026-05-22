@@ -10,7 +10,8 @@
     </p>
     <div class="hero-actions">
       <a href="#featured-projects" class="button button--primary">View Projects</a>
-      <a href="Shoug-Alomran-CV.pdf" class="button">Download CV</a>
+      <a href="cv/" class="button">View CV</a>
+      <a href="cv/?download=1" class="button">Download CV</a>
       <a href="#contact" class="button">Contact</a>
       <a href="https://blueprint.shoug-tech.com" class="button" target="_blank" rel="noreferrer">Visit Blueprint Studio</a>
     </div>

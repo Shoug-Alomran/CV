@@ -1,5 +1,5 @@
 import { motion, useScroll, useTransform } from "framer-motion";
-import { ArrowDown, ArrowUpRight, BriefcaseBusiness, Download, Mail, ShieldCheck } from "lucide-react";
+import { ArrowDown, ArrowUpRight, BriefcaseBusiness, Download, Eye, Mail, ShieldCheck } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
 import { CommandPalette } from "./components/CommandPalette";
 import { HeroSystem } from "./components/HeroSystem";
@@ -97,7 +97,10 @@ export default function App() {
                 <a href="#projects" className="primary-button">
                   View Projects <ArrowDown className="size-4" aria-hidden="true" />
                 </a>
-                <a href="/Shoug-Alomran-CV.pdf" className="secondary-button">
+                <a href="/cv/" className="secondary-button">
+                  View CV <Eye className="size-4" aria-hidden="true" />
+                </a>
+                <a href="/cv/?download=1" className="secondary-button">
                   Download CV <Download className="size-4" aria-hidden="true" />
                 </a>
                 <a href="#contact" className="secondary-button">
