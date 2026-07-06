@@ -1,220 +1,97 @@
-import {
-  ArrowUpRight,
-  BookOpenText,
-  Boxes,
-  Braces,
-  Building2,
-  Cloud,
-  Code2,
-  Database,
-  FileSearch,
-  Github,
-  GraduationCap,
-  Download,
-  Eye,
-  Layers3,
-  Linkedin,
-  LockKeyhole,
-  Mail,
-  Network,
-  ShieldCheck,
-  Sparkles,
-  TerminalSquare,
-  UsersRound,
-} from "lucide-react";
+export const heroBadges = ["Software Eng Student", "Cybersecurity Trainee", "Founder, Blueprint Studio"];
 
-export const navItems = [
-  { label: "About", href: "#about" },
-  { label: "Experience", href: "#experience" },
-  { label: "Projects", href: "#projects" },
-  { label: "Capabilities", href: "#capabilities" },
-  { label: "Leadership", href: "#leadership" },
-  { label: "Contact", href: "#contact" },
-];
-
-export const contactLinks = [
-  { label: "Email", value: "hello@shoug-tech.com", href: "mailto:hello@shoug-tech.com", icon: Mail },
-  { label: "GitHub", value: "Shoug-Alomran", href: "https://github.com/Shoug-Alomran", icon: Github },
-  { label: "LinkedIn", value: "Shoug Alomran", href: "https://www.linkedin.com/in/shoug-alomran/", icon: Linkedin },
-  { label: "Blueprint Studio", value: "blueprint.shoug-tech.com", href: "https://blueprint.shoug-tech.com", icon: Building2 },
-];
-
-export const timeline = [
-  {
-    organization: "MDD",
-    role: "Cybersecurity Trainee",
-    marker: "Security Training",
-    icon: ShieldCheck,
-    points: [
-      "Conducted supervised penetration testing activities in cybersecurity training environments.",
-      "Practiced web application security assessment and vulnerability identification.",
-      "Worked with security testing workflows, technical reporting, and remediation analysis.",
-      "Gained exposure to Linux environments, GitHub workflows, and web security tooling.",
-    ],
-  },
-  {
-    organization: "ACM Student Chapter",
-    role: "Vice President",
-    marker: "Leadership",
-    icon: UsersRound,
-    points: [
-      "Promoted from Liaison Officer to Vice President, supporting technical initiatives and student engagement.",
-      "Assists in planning events, technical workshops, and Capture The Flag initiatives.",
-      "Coordinates cybersecurity activities, communications, recruitment, outreach, and event promotion.",
-    ],
-  },
-  {
-    organization: "Qimah",
-    role: "Course Instructor",
-    marker: "Education Systems",
-    icon: GraduationCap,
-    points: [
-      "Created structured educational systems for Psychology 101 students.",
-      "Designed summaries, study systems, quizzes, mock exams, and revision materials.",
-      "Developed organized educational workflows and student-centered learning resources.",
-    ],
-  },
-  {
-    organization: "Prince Sultan University Writing & Tutoring Center",
-    role: "Peer Tutor",
-    marker: "Academic Support",
-    icon: BookOpenText,
-    points: [
-      "Provided academic tutoring and study support.",
-      "Assisted students with understanding concepts, study organization, and academic preparation.",
-    ],
-  },
+export const footerLinks = [
+  { label: "SHOUG.TECH", href: "https://shoug-tech.com" },
+  { label: "GitHub", href: "https://github.com/Shoug-Alomran" },
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/shoug-alomran/" },
+  { label: "Blueprint Studio", href: "https://blueprint.shoug-tech.com" },
 ];
 
 export const projects = [
   {
+    title: "SHOUG.TECH Platform",
+    href: "https://shoug-tech.com",
+    repo: "https://github.com/Shoug-Alomran",
+    live: true,
+    summary:
+      "A comprehensive personal technical platform functioning as a digital garden. It documents full-stack projects, cybersecurity workshops, academic research, and curated technical resources in a highly performant, searchable interface.",
+    stack: ["React", "MkDocs", "Cloudflare", "Static Generation"],
+  },
+  {
     title: "Blueprint Studio",
     href: "https://blueprint.shoug-tech.com",
     repo: "https://github.com/Shoug-Alomran",
-    type: "Digital Systems Studio",
-    icon: Layers3,
+    live: false,
     summary:
-      "Structured digital presence studio focused on documentation-oriented websites and scalable information systems.",
-    architecture:
-      "Built around multilingual content models, navigable documentation trees, searchable pages, theme systems, and polished responsive information hierarchy.",
-    stack: ["MkDocs Material", "TailwindCSS", "Search", "Dark/Light Systems", "GitHub Pages"],
-    highlights: ["Multilingual support", "Documentation architecture", "Structured navigation", "Professional information hierarchy"],
+      "Digital studio designing and engineering professional web presences. Focused on delivering premium, accessible, and fast digital experiences for clients.",
+    stack: ["Modern Web", "UI/UX", "JavaScript"],
   },
   {
     title: "Sillah Health Management System",
     href: "https://sillah-app.shoug-tech.com",
     repo: "https://github.com/Shoug-Alomran",
-    type: "Healthcare Workflow Platform",
-    icon: Database,
+    live: false,
     summary:
-      "Family health management platform focused on healthcare workflows and structured digital management systems.",
-    architecture:
-      "React interface connected to Supabase-backed data flows, authentication logic, and responsive operational screens for family health coordination.",
-    stack: ["React", "Supabase", "Authentication", "SQL", "Responsive Workflows"],
-    highlights: ["Database-backed systems", "Secure workflow thinking", "Role-aware experience", "Production-oriented UI"],
-  },
-  {
-    title: "Technical Database Platform",
-    href: "https://database.shoug-tech.com",
-    repo: "https://github.com/Shoug-Alomran",
-    type: "Knowledge Infrastructure",
-    icon: FileSearch,
-    summary: "Technical documentation and structured knowledge management platform.",
-    architecture:
-      "A searchable information system designed around durable technical organization, content discovery, and clean documentation engineering.",
-    stack: ["Documentation Engineering", "Search", "Information Architecture", "MkDocs", "GitHub"],
-    highlights: ["Searchable systems", "Technical organization", "Knowledge modeling", "Long-term maintainability"],
+      "Family health management platform focused on healthcare workflows. React interface connected to Supabase-backed data flows, authentication logic, and responsive operational screens.",
+    stack: ["React", "Supabase", "SQL", "Authentication"],
   },
   {
     title: "ACM CTF Platform",
     href: "https://shoug-alomran.github.io/acm-ctf2-web/",
     repo: "https://github.com/Shoug-Alomran/acm-ctf2-web",
-    type: "Cybersecurity Event System",
-    icon: TerminalSquare,
+    live: false,
     summary:
-      "Cybersecurity competition and event platform designed for technical engagement and participant experience.",
-    architecture:
-      "A focused event interface that balances cybersecurity branding, participant clarity, responsive structure, and modern technical presentation.",
-    stack: ["React", "Cybersecurity UI", "GitHub Pages", "Responsive Design", "Event Systems"],
-    highlights: ["Cybersecurity branding", "Event organization", "Participant experience", "Modern UI"],
+      "Cybersecurity competition and event platform designed for technical engagement. Balances cybersecurity branding, participant clarity, and responsive structure.",
+    stack: ["React", "Cybersecurity UI", "GitHub Pages"],
   },
 ];
 
-export const capabilities = [
+export const domains = [
   {
-    title: "Frontend Systems",
-    icon: Code2,
-    description: "Component-led interfaces with strong hierarchy, responsive behavior, accessible patterns, and production polish.",
-    tools: ["React", "Vite", "TailwindCSS", "Framer Motion", "Design Systems"],
+    title: "Frontend Architecture",
+    text: "React, JavaScript (ES6+), HTML5, CSS3, Modern Web Development.",
   },
   {
-    title: "Backend & APIs",
-    icon: Braces,
-    description: "Structured server logic, database-backed workflows, authentication patterns, and clean API boundaries.",
-    tools: ["Node.js", "Express", "Supabase", "SQL", "Authentication Systems"],
+    title: "Backend & Data",
+    text: "Supabase, SQL, Relational Database Design, REST APIs.",
   },
   {
-    title: "Infrastructure & Deployment",
-    icon: Cloud,
-    description: "Deployment-aware development across modern hosting, documentation platforms, and edge-oriented environments.",
-    tools: ["Vercel", "Cloudflare Workers", "GitHub Pages", "Linux", "GitHub"],
+    title: "Infrastructure & Tooling",
+    text: "Git, GitHub, Cloudflare, MkDocs, Static Site Generation.",
   },
   {
-    title: "Documentation Systems",
-    icon: Boxes,
-    description: "Information architecture for technical knowledge bases, bilingual systems, navigable content, and search-first structures.",
-    tools: ["MkDocs Material", "Search", "Structured Navigation", "Content Systems", "Bilingual UX"],
-  },
-  {
-    title: "Security & Architecture",
-    icon: LockKeyhole,
-    description: "Security-aware engineering shaped by assessment workflows, remediation thinking, and maintainable system design.",
-    tools: ["Web Security", "Penetration Testing", "Linux", "Technical Reporting", "Architecture Reviews"],
+    title: "Engineering Practice",
+    text: "Requirements Engineering, UML Documentation, Clean Architecture.",
   },
 ];
 
 export const leadership = [
   {
-    title: "ACM Vice President",
-    icon: Network,
-    text: "Supports technical initiatives, cybersecurity activities, workshops, student engagement, and organizational planning.",
+    title: "Course Instructor & Peer Tutor",
+    subtitle: "Academic Leadership",
+    text: "Develop and maintain interactive learning platforms for students. Created comprehensive course websites featuring structured summaries, practice exams, and technical documentation to streamline the learning process for complex engineering concepts.",
   },
   {
-    title: "Cybersecurity Initiatives",
-    icon: ShieldCheck,
-    text: "Contributes to Capture The Flag programming, event structure, and technical community experiences.",
+    title: "ACM Student Chapter VP",
+    subtitle: "Prince Sultan University",
+    text: "Co-leading chapter initiatives, organizing technical workshops, and fostering a community of engineering excellence among peers.",
   },
   {
-    title: "Educational Leadership",
-    icon: GraduationCap,
-    text: "Creates study systems, quizzes, revision resources, and tutoring workflows that make complex material easier to navigate.",
+    title: "Project Evolution",
+    subtitle: "Engineering Philosophy",
+    text: "Consistent track record of transforming standard university assignments into fully public, deployed systems. I prioritize better interfaces, rigorous documentation, and enhanced functionality beyond baseline requirements to build real-world products.",
   },
 ];
 
-export const approach = [
+export const philosophy = [
   {
-    title: "Clarity Before Complexity",
-    text: "A system should reveal its structure before it asks users to trust it.",
+    title: "Security Focus",
+    color: "cyan",
+    text: "Deeply invested in understanding attacker methodology to build resilient systems. Focus areas include penetration testing, vulnerability assessment, ethical hacking, and responsible disclosure. Security is treated as foundational architecture, not a patch.",
   },
   {
-    title: "Architecture Over Ornament",
-    text: "Interfaces become premium when hierarchy, flow, and behavior are designed with discipline.",
+    title: "Engineering Philosophy",
+    color: "green",
+    text: "Code must be maintainable. Solutions should be practical over unnecessarily complex. I believe documentation is integral to engineering, not an afterthought. A system is only as good as a new developer's ability to understand and safely modify it.",
   },
-  {
-    title: "Security-Aware By Default",
-    text: "Good engineering considers trust, access, reporting, and operational risk from the beginning.",
-  },
-  {
-    title: "Documentation As Infrastructure",
-    text: "Clear documentation turns a project from a one-time delivery into a system that can grow.",
-  },
-];
-
-export const commandItems = [
-  { label: "View Projects", href: "#projects", icon: ArrowUpRight },
-  { label: "View CV", href: "/cv/", icon: Eye },
-  { label: "Download CV", href: "/cv/?download=1", icon: Download },
-  { label: "Open Blueprint Studio", href: "https://blueprint.shoug-tech.com", icon: Sparkles },
-  { label: "Contact Shoug", href: "#contact", icon: Mail },
-  { label: "Explore Capabilities", href: "#capabilities", icon: Boxes },
 ];

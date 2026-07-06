@@ -5,7 +5,9 @@ copyright: Made by <a href="https://blueprint.shoug-tech.com" target="_blank" re
 
 theme:
   name: material
+  custom_dir: docs/overrides
   language: en
+  favicon: assets/images/favicon.png
   palette:
     - scheme: slate
       primary: black

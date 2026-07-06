@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { fadeUp, sectionViewport, stagger } from "../lib/motion";
 
-export function Section({ id, eyebrow, title, intro, children, className = "" }) {
+export function Section({ id, title, intro, children, className = "" }) {
   return (
     <section id={id} className={`section-shell ${className}`}>
       <motion.div
@@ -11,15 +11,11 @@ export function Section({ id, eyebrow, title, intro, children, className = "" })
         whileInView="show"
         viewport={sectionViewport}
       >
-        {(eyebrow || title || intro) && (
+        {(title || intro) && (
           <div className="mb-10 max-w-3xl md:mb-14">
-            {eyebrow && (
-              <motion.p variants={fadeUp} className="eyebrow">
-                {eyebrow}
-              </motion.p>
-            )}
             {title && (
-              <motion.h2 variants={fadeUp} className="section-title">
+              <motion.h2 variants={fadeUp} className="flex items-center gap-3 section-title">
+                <span className="glow-dot" aria-hidden="true" />
                 {title}
               </motion.h2>
             )}
