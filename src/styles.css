@@ -93,6 +93,21 @@ body.nav-open {
 
 .header-contact:hover { background: rgba(74, 222, 128, 0.1); }
 
+.mobile-header-contact {
+  display: inline-flex;
+  min-height: 2.1rem;
+  align-items: center;
+  border: 1px solid rgba(74, 222, 128, 0.45);
+  border-radius: 0.4rem;
+  padding: 0.45rem 0.6rem;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.58rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #4ade80;
+}
+
 .search-overlay {
   position: fixed;
   inset: 0;
@@ -209,6 +224,25 @@ body.nav-open {
 [data-theme="light"] .search-field { border-color: rgba(15, 23, 42, 0.1); }
 [data-theme="light"] .search-result:hover,
 [data-theme="light"] .search-result:focus-visible { background: rgba(8, 145, 178, 0.08); }
+
+[data-theme="light"] .header-contact,
+[data-theme="light"] .mobile-header-contact {
+  border-color: rgba(21, 128, 61, 0.45);
+  color: #15803d;
+}
+
+[data-theme="light"] .secondary-button {
+  border-color: rgba(15, 23, 42, 0.16);
+  background: rgba(255, 255, 255, 0.72);
+  color: #0f172a;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.06);
+}
+
+[data-theme="light"] .secondary-button:hover {
+  border-color: rgba(8, 145, 178, 0.4);
+  background: rgba(8, 145, 178, 0.08);
+  color: #0f172a;
+}
 
 .surface {
   border: 1px solid rgba(255, 255, 255, 0.1);

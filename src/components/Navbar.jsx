@@ -74,9 +74,19 @@ export function Navbar() {
             <a href="#contact" className="header-contact">Contact</a>
           </div>
 
-          <button type="button" onClick={() => setSearchOpen(true)} className="ml-auto flex items-center gap-3 text-sm text-slate-400 transition-colors hover:text-white sm:text-base" aria-label="Search site">
+          <div className="ml-auto flex items-center gap-1 sm:hidden">
+            <button type="button" className="header-icon" onClick={() => setTheme((current) => current === "dark" ? "light" : "dark")} aria-label={`Switch to ${theme === "dark" ? "light" : "dark"} mode`}>
+              {theme === "dark" ? <Sun aria-hidden="true" /> : <MoonStar aria-hidden="true" />}
+            </button>
+            <a href="#contact" className="mobile-header-contact">Contact</a>
+            <button type="button" onClick={() => setSearchOpen(true)} className="header-icon" aria-label="Search site">
+              <Search aria-hidden="true" />
+            </button>
+          </div>
+
+          <button type="button" onClick={() => setSearchOpen(true)} className="ml-auto hidden items-center gap-3 text-sm text-slate-400 transition-colors hover:text-white sm:flex sm:text-base" aria-label="Search site">
             <Search className="size-5 text-white" aria-hidden="true" />
-            <span className="hidden sm:inline">Search</span>
+            <span>Search</span>
           </button>
         </nav>
       </header>
