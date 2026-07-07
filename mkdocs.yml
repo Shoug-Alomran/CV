@@ -9,7 +9,7 @@ theme:
   language: en
   favicon: assets/images/favicon.png
   palette:
-    - scheme: slate
+      scheme: slate
       primary: black
       accent: cyan
   font:

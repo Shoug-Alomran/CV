@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { ArrowUpRight } from "lucide-react";
 import { fadeUp } from "../lib/motion";
 
 const imageThemes = [
@@ -10,9 +11,12 @@ const imageThemes = [
 
 export function ProjectCard({ project, index, featured = false }) {
   return (
-    <motion.article
+    <motion.a
+      href={project.href}
+      target="_blank"
+      rel="noreferrer"
       variants={fadeUp}
-      className={`group rounded-2xl p-4 transition duration-300 hover:-translate-y-1 ${featured ? "surface-featured" : "surface"}`}
+      className={`group block rounded-2xl p-4 transition duration-300 hover:-translate-y-1 ${featured ? "surface-featured" : "surface"}`}
     >
       <div className={`relative overflow-hidden rounded-xl ${project.image ? "" : `bg-gradient-to-br ${imageThemes[index % imageThemes.length]}`}`}>
         {project.image ? (
@@ -41,7 +45,13 @@ export function ProjectCard({ project, index, featured = false }) {
       </div>
 
       <div className="px-2 pb-2 pt-5">
-        <h3 className="text-xl font-bold text-white">{project.title}</h3>
+        <div className="flex items-center justify-between gap-3">
+          <h3 className="text-xl font-bold text-white">{project.title}</h3>
+          <ArrowUpRight
+            className="size-5 shrink-0 text-slate-500 transition group-hover:translate-x-0.5 group-hover:-translate-y-0.5 group-hover:text-white"
+            aria-hidden="true"
+          />
+        </div>
         <p className="mt-3 text-sm leading-7 text-slate-400">{project.summary}</p>
         <div className="mt-5 flex flex-wrap gap-2">
           {project.stack.map((item) => (
@@ -51,6 +61,6 @@ export function ProjectCard({ project, index, featured = false }) {
           ))}
         </div>
       </div>
-    </motion.article>
+    </motion.a>
   );
 }

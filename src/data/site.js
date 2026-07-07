@@ -40,7 +40,7 @@ export const projects = [
   },
   {
     title: "ACM CTF Platform",
-    href: "https://shoug-alomran.github.io/acm-ctf2-web/",
+    href: "https://psu-ctf.shoug-tech.com",
     repo: "https://github.com/Shoug-Alomran/acm-ctf2-web",
     live: false,
     image: "/projects/acm-ctf-platform.png",

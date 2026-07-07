@@ -18,47 +18,47 @@
 <section class="identity-section" id="projects">
   <h2 class="section-title"><span class="glow-dot"></span>Deployed Systems</h2>
   <div class="project-grid">
-    <article class="project-card project-card--featured project-card--wide">
+    <a class="project-card project-card--featured project-card--wide" href="https://shoug-tech.com/" target="_blank" rel="noreferrer">
       <div class="project-media">
         <span class="badge-pill project-live">Live</span>
         <img src="assets/images/projects/shoug-tech.png" alt="SHOUG.TECH Platform screenshot" loading="lazy" />
       </div>
-      <h3>SHOUG.TECH Platform</h3>
+      <h3>SHOUG.TECH Platform <span class="project-arrow">&#8599;</span></h3>
       <p>A comprehensive personal technical platform functioning as a digital garden. It documents full-stack projects, cybersecurity workshops, academic research, and curated technical resources in a highly performant, searchable interface.</p>
       <div class="project-meta">
         <span>React</span><span>MkDocs</span><span>Cloudflare</span><span>Static Generation</span>
       </div>
-    </article>
-    <article class="project-card">
+    </a>
+    <a class="project-card" href="https://blueprint.shoug-tech.com/" target="_blank" rel="noreferrer">
       <div class="project-media">
         <img src="assets/images/projects/blueprint.png" alt="Blueprint Studio screenshot" loading="lazy" />
       </div>
-      <h3>Blueprint Studio</h3>
+      <h3>Blueprint Studio <span class="project-arrow">&#8599;</span></h3>
       <p>Digital studio designing and engineering professional web presences. Focused on delivering premium, accessible, and fast digital experiences for clients.</p>
       <div class="project-meta">
         <span>Modern Web</span><span>UI/UX</span><span>JavaScript</span>
       </div>
-    </article>
-    <article class="project-card">
+    </a>
+    <a class="project-card" href="https://sillah-app.shoug-tech.com/" target="_blank" rel="noreferrer">
       <div class="project-media">
         <img src="assets/images/projects/sillah.png" alt="Sillah Health Management System screenshot" loading="lazy" />
       </div>
-      <h3>Sillah Health Management System</h3>
+      <h3>Sillah Health Management System <span class="project-arrow">&#8599;</span></h3>
       <p>Family health management platform focused on healthcare workflows. React interface connected to Supabase-backed data flows, authentication logic, and responsive operational screens.</p>
       <div class="project-meta">
         <span>React</span><span>Supabase</span><span>SQL</span><span>Authentication</span>
       </div>
-    </article>
-    <article class="project-card project-card--wide">
+    </a>
+    <a class="project-card project-card--wide" href="https://psu-ctf.shoug-tech.com/" target="_blank" rel="noreferrer">
       <div class="project-media">
         <img src="assets/images/projects/acm-ctf-platform.png" alt="ACM CTF Platform screenshot" loading="lazy" />
       </div>
-      <h3>ACM CTF Platform</h3>
+      <h3>ACM CTF Platform <span class="project-arrow">&#8599;</span></h3>
       <p>Cybersecurity competition and event platform designed for technical engagement. Balances cybersecurity branding, participant clarity, and responsive structure.</p>
       <div class="project-meta">
         <span>React</span><span>Cybersecurity UI</span><span>GitHub Pages</span>
       </div>
-    </article>
+    </a>
   </div>
 </section>
 

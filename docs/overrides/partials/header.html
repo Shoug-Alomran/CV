@@ -1,0 +1,33 @@
+{% set class = "md-header" %}
+{% if "navigation.tabs.sticky" in features %}
+  {% set class = class ~ " md-header--shadow md-header--lifted" %}
+{% elif "navigation.tabs" not in features %}
+  {% set class = class ~ " md-header--shadow" %}
+{% endif %}
+<header class="{{ class }} identity-header" data-md-component="header">
+  <nav class="md-header__inner md-grid identity-header__inner" aria-label="{{ lang.t('header') }}">
+    <a href="{{ config.extra.homepage | d(nav.homepage.url, true) | url }}" title="{{ config.site_name | e }}" class="md-header__button md-logo identity-wordmark" aria-label="{{ config.site_name }}" data-md-component="logo">
+      <span class="glow-dot"></span>S.ALOMRAN
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      {% set icon = config.theme.icon.menu or "material/menu" %}
+      {% include ".icons/" ~ icon ~ ".svg" %}
+    </label>
+    <div class="identity-header__actions">
+      {% if "material/search" in config.plugins %}
+        <label class="md-header__button md-icon identity-icon-btn" for="__search">
+          {% set icon = config.theme.icon.search or "material/magnify" %}
+          {% include ".icons/" ~ icon ~ ".svg" %}
+        </label>
+        {% include "partials/search.html" %}
+      {% endif %}
+      <a href="https://github.com/Shoug-Alomran" target="_blank" rel="noreferrer" class="md-header__button md-icon identity-icon-btn" title="GitHub">
+        {% include ".icons/fontawesome/brands/github.svg" %}
+      </a>
+      <a href="https://www.linkedin.com/in/shoug-alomran/" target="_blank" rel="noreferrer" class="md-header__button md-icon identity-icon-btn" title="LinkedIn">
+        {% include ".icons/fontawesome/brands/linkedin.svg" %}
+      </a>
+      <a href="#contact" class="identity-header__contact">Contact</a>
+    </div>
+  </nav>
+</header>
