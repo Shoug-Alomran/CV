@@ -2,13 +2,13 @@
 
 <section class="identity-hero" id="top">
   <div class="hero-badges">
-    <span class="badge-pill">Software Eng & Cybersecurity</span>
-    <span class="badge-pill">Cybersecurity Trainee</span>
+    <span class="badge-pill">Software Engineering</span>
+    <span class="badge-pill">Cybersecurity Minor</span>
     <span class="badge-pill">Founder, Blueprint Studio</span>
   </div>
   <h1 class="hero-title">Building systems from <span class="text-gradient">idea to deployment.</span></h1>
   <p class="hero-text">
-    Software Engineering &amp; Cybersecurity student at Prince Sultan University. I design and build production-quality platforms with thoughtful architecture, modern interfaces, and an uncompromising focus on documentation and security.
+    Software Engineer pursuing a bachelor's degree in Software Engineering with a minor in Cybersecurity at Prince Sultan University. I build secure, maintainable software—from backend systems and full-stack applications to well-documented digital products delivered from concept to deployment.
   </p>
   <div class="hero-actions">
     <a href="#projects" class="gradient-button">View Systems &amp; Architecture</a>
@@ -34,7 +34,7 @@
         <img src="assets/images/projects/blueprint.png" alt="Blueprint Studio screenshot" loading="lazy" />
       </div>
       <h3>Blueprint Studio <span class="project-arrow">&#8599;</span></h3>
-      <p>Digital studio designing and engineering professional web presences. Focused on delivering premium, accessible, and fast digital experiences for clients.</p>
+      <p>A digital studio creating professional portfolio websites and thoughtful digital solutions for students, researchers, and professionals—from early concept and architecture through deployment and documentation.</p>
       <div class="project-meta">
         <span>Modern Web</span><span>UI/UX</span><span>JavaScript</span>
       </div>
@@ -66,20 +66,20 @@
   <h2 class="section-title"><span class="glow-dot"></span>Technical Domains</h2>
   <div class="capability-grid">
     <article>
-      <h3><span class="glow-dot"></span>Frontend Architecture</h3>
-      <p>React, JavaScript (ES6+), HTML5, CSS3, Modern Web Development.</p>
+      <h3><span class="glow-dot"></span>Full-Stack Development</h3>
+      <p>React, JavaScript (ES6+), HTML5, CSS3, responsive interfaces, and end-to-end web application development.</p>
     </article>
     <article>
       <h3><span class="glow-dot"></span>Backend &amp; Data</h3>
-      <p>Supabase, SQL, Relational Database Design, REST APIs.</p>
+      <p>Supabase, SQL, relational database design, REST APIs, authentication, and secure application workflows.</p>
     </article>
     <article>
-      <h3><span class="glow-dot"></span>Infrastructure &amp; Tooling</h3>
-      <p>Git, GitHub, Cloudflare, MkDocs, Static Site Generation.</p>
+      <h3><span class="glow-dot"></span>Architecture &amp; Delivery</h3>
+      <p>System design, clean architecture, Git, GitHub, Cloudflare, deployment, and maintainable project delivery.</p>
     </article>
     <article>
-      <h3><span class="glow-dot"></span>Engineering Practice</h3>
-      <p>Requirements Engineering, UML Documentation, Clean Architecture.</p>
+      <h3><span class="glow-dot"></span>Security &amp; Documentation</h3>
+      <p>Secure software development, offensive security foundations, requirements engineering, UML, and technical documentation.</p>
     </article>
   </div>
 </section>
@@ -92,21 +92,28 @@
         <h3>Course Instructor &amp; Peer Tutor</h3>
         <p class="subtitle">Academic Leadership</p>
       </div>
-      <p>Develop and maintain interactive learning platforms for students. Created comprehensive course websites featuring structured summaries, practice exams, and technical documentation to streamline the learning process for complex engineering concepts.</p>
+      <p>Mentor students through workshops, tutoring, and structured learning resources. I create course platforms, practice material, and technical documentation that make complex engineering concepts easier to understand and apply.</p>
     </article>
     <article class="leadership-item">
       <div>
-        <h3>ACM Student Chapter VP</h3>
-        <p class="subtitle">Prince Sultan University</p>
+        <h3>Second Place — PSU CTF</h3>
+        <p class="subtitle">Applied Cybersecurity</p>
       </div>
-      <p>Co-leading chapter initiatives, organizing technical workshops, and fostering a community of engineering excellence among peers.</p>
+      <p>Earned second place in Prince Sultan University's Capture The Flag competition, applying practical cybersecurity knowledge, analytical thinking, and collaborative problem-solving under pressure.</p>
     </article>
     <article class="leadership-item">
       <div>
-        <h3>Project Evolution</h3>
-        <p class="subtitle">Engineering Philosophy</p>
+        <h3>Hands-On Technical Training</h3>
+        <p class="subtitle">Security, AI &amp; Robotics</p>
       </div>
-      <p>Consistent track record of transforming standard university assignments into fully public, deployed systems. I prioritize better interfaces, rigorous documentation, and enhanced functionality beyond baseline requirements to build real-world products.</p>
+      <p>Completed offensive security training through the ASCL Cybersecurity Crash Course and participated in the AI in Robotics Bootcamp, building practical experience with Arduino and AI-driven robotics.</p>
+    </article>
+    <article class="leadership-item">
+      <div>
+        <h3>Concept to Completion</h3>
+        <p class="subtitle">Project Execution</p>
+      </div>
+      <p>Design, develop, deploy, and document software projects as complete systems. I often evolve academic ideas beyond their original requirements into useful, public-facing products built for real users.</p>
     </article>
   </div>
 </section>
@@ -115,11 +122,11 @@
   <div class="philosophy-grid">
     <article class="philosophy-card philosophy-card--cyan">
       <h3>Security Focus</h3>
-      <p>Deeply invested in understanding attacker methodology to build resilient systems. Focus areas include penetration testing, vulnerability assessment, ethical hacking, and responsible disclosure. Security is treated as foundational architecture, not a patch.</p>
+      <p>I combine software engineering principles with cybersecurity practices to build reliable, resilient systems. Understanding attacker methodology informs better architecture, safer workflows, and security decisions made from the beginning—not added as a patch.</p>
     </article>
     <article class="philosophy-card philosophy-card--green">
       <h3>Engineering Philosophy</h3>
-      <p>Code must be maintainable. Solutions should be practical over unnecessarily complex. I believe documentation is integral to engineering, not an afterthought. A system is only as good as a new developer's ability to understand and safely modify it.</p>
+      <p>I value clean architecture, readable code, thoughtful documentation, and long-term maintainability over unnecessary complexity. Effective engineering also depends on clear communication, collaboration, and sharing knowledge so others can confidently extend the work.</p>
     </article>
   </div>
 </section>
@@ -127,7 +134,7 @@
 <section class="identity-section contact-section" id="contact">
   <div class="contact-inner">
     <h2>Initialize Connection.</h2>
-    <p>Available for discussions on software architecture, security, and digital experiences.</p>
+    <p>Let's connect around software engineering, secure systems, digital products, teaching, or meaningful problems worth solving with technology.</p>
     <div class="contact-cta">
       <a href="cv/?download=1" class="gradient-button">Download Resume</a>
     </div>

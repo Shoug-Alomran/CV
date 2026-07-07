@@ -66,7 +66,6 @@ body {
   display: flex;
   align-items: center;
   gap: 0.6rem;
-  margin-right: auto;
   font-family: var(--md-code-font-family);
   font-size: 0.9rem;
   font-weight: 700;
@@ -79,6 +78,12 @@ body {
   display: flex;
   align-items: center;
   gap: 1rem;
+}
+
+.identity-header__search {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
 }
 
 .identity-icon-btn {
@@ -181,18 +186,6 @@ label[for="__drawer"] {
 
 .md-copyright a:hover {
   color: var(--md-default-fg-color) !important;
-}
-
-.md-social__link {
-  border: 1px solid var(--identity-border);
-  border-radius: 0.4rem;
-  color: var(--md-default-fg-color--light) !important;
-  transition: border-color 180ms ease, color 180ms ease;
-}
-
-.md-social__link:hover {
-  border-color: rgba(34, 211, 238, 0.4);
-  color: var(--identity-cyan) !important;
 }
 
 .md-content__inner {

@@ -1,5 +1,5 @@
 site_name: Shoug Alomran
-site_description: Software Engineer & Cybersecurity Specialist building structured digital systems, modern web platforms, and documentation-driven experiences.
+site_description: Software Engineer and Cybersecurity student building secure, maintainable, and well-documented software from concept to deployment.
 site_url: https://cv.shoug-tech.com/
 copyright: Made by <a href="https://blueprint.shoug-tech.com" target="_blank" rel="noreferrer">Blueprint</a>
 
@@ -51,13 +51,3 @@ extra_css:
 
 extra:
   generator: false
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/Shoug-Alomran
-      name: GitHub
-    - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/shoug-alomran/
-      name: LinkedIn
-    - icon: fontawesome/solid/globe
-      link: https://blueprint.shoug-tech.com
-      name: Blueprint Studio

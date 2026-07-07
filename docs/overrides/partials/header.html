@@ -14,13 +14,6 @@
       {% include ".icons/" ~ icon ~ ".svg" %}
     </label>
     <div class="identity-header__actions">
-      {% if "material/search" in config.plugins %}
-        <label class="md-header__button md-icon identity-icon-btn" for="__search">
-          {% set icon = config.theme.icon.search or "material/magnify" %}
-          {% include ".icons/" ~ icon ~ ".svg" %}
-        </label>
-        {% include "partials/search.html" %}
-      {% endif %}
       <a href="https://github.com/Shoug-Alomran" target="_blank" rel="noreferrer" class="md-header__button md-icon identity-icon-btn" title="GitHub">
         {% include ".icons/fontawesome/brands/github.svg" %}
       </a>
@@ -34,5 +27,14 @@
       {% endif %}
       <a href="#contact" class="identity-header__contact">Contact</a>
     </div>
+    {% if "material/search" in config.plugins %}
+      <div class="identity-header__search">
+        <label class="md-header__button md-icon identity-icon-btn" for="__search">
+          {% set icon = config.theme.icon.search or "material/magnify" %}
+          {% include ".icons/" ~ icon ~ ".svg" %}
+        </label>
+        {% include "partials/search.html" %}
+      </div>
+    {% endif %}
   </nav>
 </header>

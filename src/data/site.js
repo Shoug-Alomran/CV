@@ -1,4 +1,4 @@
-export const heroBadges = ["Software Eng & Cybersecurity", "Cybersecurity Trainee", "Founder, Blueprint Studio"];
+export const heroBadges = ["Software Engineering", "Cybersecurity Minor", "Founder, Blueprint Studio"];
 
 export const footerLinks = [
   { label: "SHOUG.TECH", href: "https://shoug-tech.com" },
@@ -25,7 +25,7 @@ export const projects = [
     live: false,
     image: "/projects/blueprint.png",
     summary:
-      "Digital studio designing and engineering professional web presences. Focused on delivering premium, accessible, and fast digital experiences for clients.",
+      "A digital studio creating professional portfolio websites and thoughtful digital solutions for students, researchers, and professionals—from early concept and architecture through deployment and documentation.",
     stack: ["Modern Web", "UI/UX", "JavaScript"],
   },
   {
@@ -52,20 +52,20 @@ export const projects = [
 
 export const domains = [
   {
-    title: "Frontend Architecture",
-    text: "React, JavaScript (ES6+), HTML5, CSS3, Modern Web Development.",
+    title: "Full-Stack Development",
+    text: "React, JavaScript (ES6+), HTML5, CSS3, responsive interfaces, and end-to-end web application development.",
   },
   {
     title: "Backend & Data",
-    text: "Supabase, SQL, Relational Database Design, REST APIs.",
+    text: "Supabase, SQL, relational database design, REST APIs, authentication, and secure application workflows.",
   },
   {
-    title: "Infrastructure & Tooling",
-    text: "Git, GitHub, Cloudflare, MkDocs, Static Site Generation.",
+    title: "Architecture & Delivery",
+    text: "System design, clean architecture, Git, GitHub, Cloudflare, deployment, and maintainable project delivery.",
   },
   {
-    title: "Engineering Practice",
-    text: "Requirements Engineering, UML Documentation, Clean Architecture.",
+    title: "Security & Documentation",
+    text: "Secure software development, offensive security foundations, requirements engineering, UML, and technical documentation.",
   },
 ];
 
@@ -73,17 +73,22 @@ export const leadership = [
   {
     title: "Course Instructor & Peer Tutor",
     subtitle: "Academic Leadership",
-    text: "Develop and maintain interactive learning platforms for students. Created comprehensive course websites featuring structured summaries, practice exams, and technical documentation to streamline the learning process for complex engineering concepts.",
+    text: "Mentor students through workshops, tutoring, and structured learning resources. I create course platforms, practice material, and technical documentation that make complex engineering concepts easier to understand and apply.",
   },
   {
-    title: "ACM Student Chapter VP",
-    subtitle: "Prince Sultan University",
-    text: "Co-leading chapter initiatives, organizing technical workshops, and fostering a community of engineering excellence among peers.",
+    title: "Second Place — PSU CTF",
+    subtitle: "Applied Cybersecurity",
+    text: "Earned second place in Prince Sultan University's Capture The Flag competition, applying practical cybersecurity knowledge, analytical thinking, and collaborative problem-solving under pressure.",
   },
   {
-    title: "Project Evolution",
-    subtitle: "Engineering Philosophy",
-    text: "Consistent track record of transforming standard university assignments into fully public, deployed systems. I prioritize better interfaces, rigorous documentation, and enhanced functionality beyond baseline requirements to build real-world products.",
+    title: "Hands-On Technical Training",
+    subtitle: "Security, AI & Robotics",
+    text: "Completed offensive security training through the ASCL Cybersecurity Crash Course and participated in the AI in Robotics Bootcamp, building practical experience with Arduino and AI-driven robotics.",
+  },
+  {
+    title: "Concept to Completion",
+    subtitle: "Project Execution",
+    text: "Design, develop, deploy, and document software projects as complete systems. I often evolve academic ideas beyond their original requirements into useful, public-facing products built for real users.",
   },
 ];
 
@@ -91,11 +96,11 @@ export const philosophy = [
   {
     title: "Security Focus",
     color: "cyan",
-    text: "Deeply invested in understanding attacker methodology to build resilient systems. Focus areas include penetration testing, vulnerability assessment, ethical hacking, and responsible disclosure. Security is treated as foundational architecture, not a patch.",
+    text: "I combine software engineering principles with cybersecurity practices to build reliable, resilient systems. Understanding attacker methodology informs better architecture, safer workflows, and security decisions made from the beginning—not added as a patch.",
   },
   {
     title: "Engineering Philosophy",
     color: "green",
-    text: "Code must be maintainable. Solutions should be practical over unnecessarily complex. I believe documentation is integral to engineering, not an afterthought. A system is only as good as a new developer's ability to understand and safely modify it.",
+    text: "I value clean architecture, readable code, thoughtful documentation, and long-term maintainability over unnecessary complexity. Effective engineering also depends on clear communication, collaboration, and sharing knowledge so others can confidently extend the work.",
   },
 ];

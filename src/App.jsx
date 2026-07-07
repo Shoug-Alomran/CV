@@ -28,7 +28,7 @@ export default function App() {
                 Building systems from <span className="text-gradient">idea to deployment.</span>
               </motion.h1>
               <motion.p variants={fadeUp} className="hero-text mt-7">
-                Software Engineering & Cybersecurity student at Prince Sultan University. I design and build production-quality platforms with thoughtful architecture, modern interfaces, and an uncompromising focus on documentation and security.
+                Software Engineer pursuing a bachelor's degree in Software Engineering with a minor in Cybersecurity at Prince Sultan University. I build secure, maintainable software—from backend systems and full-stack applications to well-documented digital products delivered from concept to deployment.
               </motion.p>
               <motion.div variants={fadeUp} className="mt-9">
                 <a href="#projects" className="gradient-button">
@@ -94,7 +94,7 @@ export default function App() {
               Initialize Connection.
             </motion.h2>
             <motion.p variants={fadeUp} className="mt-5 text-lg text-slate-400">
-              Available for discussions on software architecture, security, and digital experiences.
+              Let&apos;s connect around software engineering, secure systems, digital products, teaching, or meaningful problems worth solving with technology.
             </motion.p>
             <motion.div variants={fadeUp} className="mt-9 flex justify-center">
               <a href="/cv/?download=1" className="gradient-button">
