@@ -2,7 +2,7 @@
 
 <section class="identity-hero" id="top">
   <div class="hero-badges">
-    <span class="badge-pill">Software Eng Student</span>
+    <span class="badge-pill">Software Eng & Cybersecurity</span>
     <span class="badge-pill">Cybersecurity Trainee</span>
     <span class="badge-pill">Founder, Blueprint Studio</span>
   </div>
@@ -130,12 +130,6 @@
     <p>Available for discussions on software architecture, security, and digital experiences.</p>
     <div class="contact-cta">
       <a href="cv/?download=1" class="gradient-button">Download Resume</a>
-    </div>
-    <div class="footer-links">
-      <a href="https://shoug-tech.com" target="_blank" rel="noreferrer">SHOUG.TECH</a>
-      <a href="https://github.com/Shoug-Alomran" target="_blank" rel="noreferrer">GitHub</a>
-      <a href="https://www.linkedin.com/in/shoug-alomran/" target="_blank" rel="noreferrer">LinkedIn</a>
-      <a href="https://blueprint.shoug-tech.com" target="_blank" rel="noreferrer">Blueprint Studio</a>
     </div>
   </div>
 </section>

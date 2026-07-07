@@ -27,6 +27,11 @@
       <a href="https://www.linkedin.com/in/shoug-alomran/" target="_blank" rel="noreferrer" class="md-header__button md-icon identity-icon-btn" title="LinkedIn">
         {% include ".icons/fontawesome/brands/linkedin.svg" %}
       </a>
+      {% if config.theme.palette %}
+        {% if not config.theme.palette is mapping %}
+          {% include "partials/palette.html" %}
+        {% endif %}
+      {% endif %}
       <a href="#contact" class="identity-header__contact">Contact</a>
     </div>
   </nav>

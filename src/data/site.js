@@ -1,4 +1,4 @@
-export const heroBadges = ["Software Eng Student", "Cybersecurity Trainee", "Founder, Blueprint Studio"];
+export const heroBadges = ["Software Eng & Cybersecurity", "Cybersecurity Trainee", "Founder, Blueprint Studio"];
 
 export const footerLinks = [
   { label: "SHOUG.TECH", href: "https://shoug-tech.com" },
