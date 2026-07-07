@@ -1,17 +1,38 @@
-# S. Alomran
+# Shoug Fawaz Alomran
 
 <section class="identity-hero" id="top">
-  <div class="hero-badges">
-    <span class="badge-pill">Software Engineering</span>
-    <span class="badge-pill">Cybersecurity Minor</span>
-    <span class="badge-pill">Founder, Blueprint Studio</span>
-  </div>
-  <h1 class="hero-title">Building systems from <span class="text-gradient">idea to deployment.</span></h1>
-  <p class="hero-text">
-    Software Engineer pursuing a bachelor's degree in Software Engineering with a minor in Cybersecurity at Prince Sultan University. I build secure, maintainable software—from backend systems and full-stack applications to well-documented digital products delivered from concept to deployment.
-  </p>
-  <div class="hero-actions">
-    <a href="#projects" class="gradient-button">View Systems &amp; Architecture</a>
+  <div class="hero-layout">
+    <div class="hero-copy">
+      <div class="hero-badges">
+        <span class="badge-pill">Software Engineering</span>
+        <span class="badge-pill">Cybersecurity Minor</span>
+        <span class="badge-pill">Founder, Blueprint Studio</span>
+      </div>
+      <h1 class="hero-title">Building systems from <span class="text-gradient">idea to deployment.</span></h1>
+      <p class="hero-text">
+        I'm Shoug Fawaz Alomran, a Software Engineer pursuing a bachelor's degree in Software Engineering with a minor in Cybersecurity at Prince Sultan University. I build secure, maintainable software—from backend systems and full-stack applications to well-documented digital products delivered from concept to deployment.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="gradient-button">View Systems &amp; Architecture</a>
+      </div>
+    </div>
+    <div class="hero-visual" aria-hidden="true">
+      <div class="system-orbit">
+        <div class="orbit-ring orbit-ring--outer"></div>
+        <div class="orbit-ring orbit-ring--inner"></div>
+        <div class="orbit-core"><span>System</span><strong>Architecture</strong></div>
+        <div class="orbit-node orbit-node--idea"><span class="orbit-node-dot"></span>Idea</div>
+        <div class="orbit-node orbit-node--architecture"><span class="orbit-node-dot"></span>Architecture</div>
+        <div class="orbit-node orbit-node--build"><span class="orbit-node-dot"></span>Secure Build</div>
+        <div class="orbit-node orbit-node--deployment"><span class="orbit-node-dot"></span>Deployment</div>
+        <span class="orbit-packet orbit-packet--one"></span>
+        <span class="orbit-packet orbit-packet--two"></span>
+        <span class="orbit-tag orbit-tag--api">API</span>
+        <span class="orbit-tag orbit-tag--data">DATABASE</span>
+        <span class="orbit-tag orbit-tag--cloud">CLOUD</span>
+        <span class="orbit-tag orbit-tag--security">SECURITY</span>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -24,9 +45,9 @@
         <img src="assets/images/projects/shoug-tech.png" alt="SHOUG.TECH Platform screenshot" loading="lazy" />
       </div>
       <h3>SHOUG.TECH Platform <span class="project-arrow">&#8599;</span></h3>
-      <p>A comprehensive personal technical platform functioning as a digital garden. It documents full-stack projects, cybersecurity workshops, academic research, and curated technical resources in a highly performant, searchable interface.</p>
+      <p>A comprehensive personal technical platform and digital garden documenting projects, cybersecurity workshops, research, and technical resources. Firebase powers the user login experience, learning-progress tracking, and community features.</p>
       <div class="project-meta">
-        <span>React</span><span>MkDocs</span><span>Cloudflare</span><span>Static Generation</span>
+        <span>React</span><span>MkDocs</span><span>Firebase</span><span>Cloudflare</span>
       </div>
     </a>
     <a class="project-card" href="https://blueprint.shoug-tech.com/" target="_blank" rel="noreferrer">
@@ -71,11 +92,11 @@
     </article>
     <article>
       <h3><span class="glow-dot"></span>Backend &amp; Data</h3>
-      <p>Supabase, SQL, relational database design, REST APIs, authentication, and secure application workflows.</p>
+      <p>Firebase, Supabase, SQL, relational database design, REST APIs, authentication, progress tracking, and secure application workflows.</p>
     </article>
     <article>
       <h3><span class="glow-dot"></span>Architecture &amp; Delivery</h3>
-      <p>System design, clean architecture, Git, GitHub, Cloudflare, deployment, and maintainable project delivery.</p>
+      <p>System design, clean architecture, Git, GitHub, Cloudflare, and deployment, with familiarity in Google Cloud and Google Search Console.</p>
     </article>
     <article>
       <h3><span class="glow-dot"></span>Security &amp; Documentation</h3>

@@ -3,6 +3,7 @@ import { Download } from "lucide-react";
 import { Navbar } from "./components/Navbar";
 import { ProjectCard } from "./components/ProjectCard";
 import { Section } from "./components/Section";
+import { SystemOrbit } from "./components/SystemOrbit";
 import { domains, footerLinks, heroBadges, leadership, philosophy, projects } from "./data/site";
 import { fadeUp, stagger } from "./lib/motion";
 
@@ -15,7 +16,7 @@ export default function App() {
       <main id="top">
         <section className="relative isolate min-h-screen overflow-hidden pt-28 sm:pt-32">
           <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_18%_28%,rgba(34,211,238,0.10),transparent_40%),radial-gradient(circle_at_70%_65%,rgba(74,222,128,0.08),transparent_42%)]" />
-          <div className="mx-auto flex min-h-[calc(100vh-8rem)] max-w-7xl items-center px-5 pb-16 sm:px-6 lg:px-8">
+          <div className="mx-auto flex min-h-[calc(100vh-8rem)] max-w-[1700px] items-center px-5 pb-16 sm:px-6 lg:px-8">
             <motion.div variants={stagger} initial="hidden" animate="show" className="hero-content">
               <motion.div variants={fadeUp} className="flex flex-wrap gap-3">
                 {heroBadges.map((badge) => (
@@ -28,13 +29,16 @@ export default function App() {
                 Building systems from <span className="text-gradient">idea to deployment.</span>
               </motion.h1>
               <motion.p variants={fadeUp} className="hero-text mt-7">
-                Software Engineer pursuing a bachelor's degree in Software Engineering with a minor in Cybersecurity at Prince Sultan University. I build secure, maintainable software—from backend systems and full-stack applications to well-documented digital products delivered from concept to deployment.
+                I&apos;m Shoug Fawaz Alomran, a Software Engineer pursuing a bachelor&apos;s degree in Software Engineering with a minor in Cybersecurity at Prince Sultan University. I build secure, maintainable software—from backend systems and full-stack applications to well-documented digital products delivered from concept to deployment.
               </motion.p>
               <motion.div variants={fadeUp} className="mt-9">
                 <a href="#projects" className="gradient-button">
                   View Systems &amp; Architecture
                 </a>
               </motion.div>
+            </motion.div>
+            <motion.div initial={{ opacity: 0, scale: 0.94 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.9, delay: 0.35 }} className="hero-visual">
+              <SystemOrbit />
             </motion.div>
           </div>
         </section>

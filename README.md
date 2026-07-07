@@ -1,6 +1,6 @@
-# Shoug Alomran Digital Identity
+# Shoug Fawaz Alomran Digital Identity
 
-Premium single-page personal website for Shoug Alomran, built with MkDocs Material for GitHub Pages.
+Premium single-page personal website for Shoug Fawaz Alomran, built with MkDocs Material for GitHub Pages.
 
 Production domain: https://cv.shoug-tech.com
 

@@ -15,8 +15,8 @@ export const projects = [
     live: true,
     image: "/projects/shoug-tech.png",
     summary:
-      "A comprehensive personal technical platform functioning as a digital garden. It documents full-stack projects, cybersecurity workshops, academic research, and curated technical resources in a highly performant, searchable interface.",
-    stack: ["React", "MkDocs", "Cloudflare", "Static Generation"],
+      "A comprehensive personal technical platform and digital garden documenting projects, cybersecurity workshops, research, and technical resources. Firebase powers the user login experience, learning-progress tracking, and community features.",
+    stack: ["React", "MkDocs", "Firebase", "Cloudflare"],
   },
   {
     title: "Blueprint Studio",
@@ -57,11 +57,11 @@ export const domains = [
   },
   {
     title: "Backend & Data",
-    text: "Supabase, SQL, relational database design, REST APIs, authentication, and secure application workflows.",
+    text: "Firebase, Supabase, SQL, relational database design, REST APIs, authentication, progress tracking, and secure application workflows.",
   },
   {
     title: "Architecture & Delivery",
-    text: "System design, clean architecture, Git, GitHub, Cloudflare, deployment, and maintainable project delivery.",
+    text: "System design, clean architecture, Git, GitHub, Cloudflare, and deployment, with familiarity in Google Cloud and Google Search Console.",
   },
   {
     title: "Security & Documentation",
