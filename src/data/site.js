@@ -13,6 +13,7 @@ export const projects = [
     href: "https://shoug-tech.com",
     repo: "https://github.com/Shoug-Alomran",
     live: true,
+    image: "/projects/shoug-tech.png",
     summary:
       "A comprehensive personal technical platform functioning as a digital garden. It documents full-stack projects, cybersecurity workshops, academic research, and curated technical resources in a highly performant, searchable interface.",
     stack: ["React", "MkDocs", "Cloudflare", "Static Generation"],
@@ -22,6 +23,7 @@ export const projects = [
     href: "https://blueprint.shoug-tech.com",
     repo: "https://github.com/Shoug-Alomran",
     live: false,
+    image: "/projects/blueprint.png",
     summary:
       "Digital studio designing and engineering professional web presences. Focused on delivering premium, accessible, and fast digital experiences for clients.",
     stack: ["Modern Web", "UI/UX", "JavaScript"],
@@ -31,6 +33,7 @@ export const projects = [
     href: "https://sillah-app.shoug-tech.com",
     repo: "https://github.com/Shoug-Alomran",
     live: false,
+    image: "/projects/sillah.png",
     summary:
       "Family health management platform focused on healthcare workflows. React interface connected to Supabase-backed data flows, authentication logic, and responsive operational screens.",
     stack: ["React", "Supabase", "SQL", "Authentication"],
@@ -40,6 +43,7 @@ export const projects = [
     href: "https://shoug-alomran.github.io/acm-ctf2-web/",
     repo: "https://github.com/Shoug-Alomran/acm-ctf2-web",
     live: false,
+    image: "/projects/acm-ctf-platform.png",
     summary:
       "Cybersecurity competition and event platform designed for technical engagement. Balances cybersecurity branding, participant clarity, and responsive structure.",
     stack: ["React", "Cybersecurity UI", "GitHub Pages"],

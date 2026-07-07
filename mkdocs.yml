@@ -12,15 +12,6 @@ theme:
     - scheme: slate
       primary: black
       accent: cyan
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to light mode
-    - scheme: default
-      primary: black
-      accent: cyan
-      toggle:
-        icon: material/weather-night
-        name: Switch to dark mode
   font:
     text: Inter
     code: JetBrains Mono
@@ -48,9 +39,6 @@ markdown_extensions:
 
 extra_css:
   - assets/stylesheets/identity.css
-
-extra_javascript:
-  - assets/javascripts/identity.js
 
 extra:
   generator: false

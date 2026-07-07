@@ -1,222 +1,141 @@
-# Shoug Alomran
+# S. Alomran
 
 <section class="identity-hero" id="top">
-  <div class="identity-hero__content">
-    <p class="eyebrow">Software Engineering · Cybersecurity · Blueprint Studio</p>
-    <h1>Shoug Alomran</h1>
-    <p class="title">Software Engineer & Cybersecurity Specialist</p>
-    <p class="summary">
-      Building structured digital systems, modern web platforms, and documentation-driven experiences with a security-aware engineering mindset.
-    </p>
-    <div class="hero-actions">
-      <a href="#featured-projects" class="button button--primary">View Projects</a>
-      <a href="cv/" class="button">View CV</a>
-      <a href="cv/?download=1" class="button">Download CV</a>
-      <a href="#contact" class="button">Contact</a>
-      <a href="https://blueprint.shoug-tech.com" class="button" target="_blank" rel="noreferrer">Visit Blueprint Studio</a>
-    </div>
+  <div class="hero-badges">
+    <span class="badge-pill">Software Eng Student</span>
+    <span class="badge-pill">Cybersecurity Trainee</span>
+    <span class="badge-pill">Founder, Blueprint Studio</span>
   </div>
-  <div class="system-panel" aria-label="Digital architecture visualization">
-    <div class="panel-bar">
-      <span>system overview</span>
-      <strong>online</strong>
-    </div>
-    <div class="architecture-map">
-      <div class="map-line map-line--one"></div>
-      <div class="map-line map-line--two"></div>
-      <span class="node node--identity">Identity</span>
-      <span class="node node--content">Content</span>
-      <span class="node node--security">Security</span>
-      <span class="node node--deploy">Deploy</span>
-      <span class="node node--core">Blueprint</span>
-    </div>
-    <div class="panel-grid">
-      <div>
-        <span>auth</span>
-        <strong>verified</strong>
-      </div>
-      <div>
-        <span>docs</span>
-        <strong>indexed</strong>
-      </div>
-      <div>
-        <span>risk</span>
-        <strong>reviewed</strong>
-      </div>
-      <div>
-        <span>build</span>
-        <strong>stable</strong>
-      </div>
-    </div>
-    <div class="panel-footer">blueprint/studio-system · secure by structure</div>
-  </div>
-</section>
-
-<nav class="section-nav" aria-label="Page sections">
-  <a href="#about">About</a>
-  <a href="#experience">Experience</a>
-  <a href="#featured-projects">Projects</a>
-  <a href="#capabilities">Capabilities</a>
-  <a href="#leadership">Leadership</a>
-  <a href="#approach">Approach</a>
-  <a href="#contact">Contact</a>
-</nav>
-
-<section class="identity-section" id="about">
-  <p class="eyebrow">Profile</p>
-  <h2>A structured engineering identity for systems that need clarity.</h2>
-  <div class="two-column">
-    <div class="surface surface--large">
-      <p>
-        Shoug works at the intersection of software engineering, cybersecurity awareness, documentation architecture, and professional digital experience design. Her work style is architecture-focused and detail-heavy: defining information structure, organizing technical decisions, and turning complex requirements into interfaces that feel calm, navigable, and maintainable.
-      </p>
-      <p>
-        That perspective carries into Blueprint Studio, a digital systems studio for documentation-oriented websites, bilingual platforms, and scalable web experiences that are designed to be used, searched, maintained, and trusted.
-      </p>
-    </div>
-    <div class="signal-list">
-      <div>Systems thinking</div>
-      <div>Documentation-first workflows</div>
-      <div>Security-aware development</div>
-      <div>Bilingual digital systems</div>
-    </div>
-  </div>
-</section>
-
-<section class="identity-section" id="experience">
-  <p class="eyebrow">Experience</p>
-  <h2>Work shaped by security practice, technical leadership, and teaching systems.</h2>
-  <div class="timeline">
-    <article class="timeline-item">
-      <span class="marker">Security Training</span>
-      <h3>MDD</h3>
-      <p class="role">Cybersecurity Trainee</p>
-      <ul>
-        <li>Conducted supervised penetration testing activities in cybersecurity training environments.</li>
-        <li>Practiced web application security assessment and vulnerability identification.</li>
-        <li>Worked with security testing workflows, technical reporting, and remediation analysis.</li>
-        <li>Exposure to Linux environments, GitHub workflows, and web security tooling.</li>
-      </ul>
-    </article>
-    <article class="timeline-item">
-      <span class="marker">Leadership</span>
-      <h3>ACM Student Chapter</h3>
-      <p class="role">Vice President</p>
-      <ul>
-        <li>Promoted from Liaison Officer to Vice President.</li>
-        <li>Supports technical initiatives, cybersecurity activities, student engagement, and organizational leadership.</li>
-        <li>Assists in planning events, technical workshops, and Capture The Flag initiatives.</li>
-        <li>Previous Liaison Officer responsibilities included outreach, communications coordination, recruitment, and event promotion.</li>
-      </ul>
-    </article>
-    <article class="timeline-item">
-      <span class="marker">Education Systems</span>
-      <h3>Qimah</h3>
-      <p class="role">Course Instructor</p>
-      <ul>
-        <li>Created structured educational systems for Psychology 101 students.</li>
-        <li>Designed summaries, study systems, quizzes, mock exams, and revision materials.</li>
-        <li>Developed organized educational workflows and student-centered learning resources.</li>
-      </ul>
-    </article>
-    <article class="timeline-item">
-      <span class="marker">Academic Support</span>
-      <h3>Prince Sultan University Writing & Tutoring Center</h3>
-      <p class="role">Peer Tutor</p>
-      <ul>
-        <li>Provided academic tutoring and study support.</li>
-        <li>Assisted students with understanding concepts, study organization, and academic preparation.</li>
-      </ul>
-    </article>
-  </div>
-</section>
-
-<section class="identity-section" id="featured-projects">
-  <p class="eyebrow">Featured Systems</p>
-  <h2>Project work presented as product architecture, not portfolio decoration.</h2>
-  <p class="section-intro">
-    Each project is treated as a system with a purpose, structure, interface model, deployment context, and audience.
+  <h1 class="hero-title">Building systems from <span class="text-gradient">idea to deployment.</span></h1>
+  <p class="hero-text">
+    Software Engineering &amp; Cybersecurity student at Prince Sultan University. I design and build production-quality platforms with thoughtful architecture, modern interfaces, and an uncompromising focus on documentation and security.
   </p>
+  <div class="hero-actions">
+    <a href="#projects" class="gradient-button">View Systems &amp; Architecture</a>
+  </div>
+</section>
+
+<section class="identity-section" id="projects">
+  <h2 class="section-title"><span class="glow-dot"></span>Deployed Systems</h2>
   <div class="project-grid">
+    <article class="project-card project-card--featured project-card--wide">
+      <div class="project-media">
+        <span class="badge-pill project-live">Live</span>
+        <img src="assets/images/projects/shoug-tech.png" alt="SHOUG.TECH Platform screenshot" loading="lazy" />
+      </div>
+      <h3>SHOUG.TECH Platform</h3>
+      <p>A comprehensive personal technical platform functioning as a digital garden. It documents full-stack projects, cybersecurity workshops, academic research, and curated technical resources in a highly performant, searchable interface.</p>
+      <div class="project-meta">
+        <span>React</span><span>MkDocs</span><span>Cloudflare</span><span>Static Generation</span>
+      </div>
+    </article>
     <article class="project-card">
-      <span class="project-type">Digital Systems Studio</span>
+      <div class="project-media">
+        <img src="assets/images/projects/blueprint.png" alt="Blueprint Studio screenshot" loading="lazy" />
+      </div>
       <h3>Blueprint Studio</h3>
-      <p>Structured digital presence studio focused on documentation-oriented websites and scalable information systems.</p>
+      <p>Digital studio designing and engineering professional web presences. Focused on delivering premium, accessible, and fast digital experiences for clients.</p>
       <div class="project-meta">
-        <span>Multilingual support</span><span>Documentation architecture</span><span>Search systems</span><span>Professional hierarchy</span>
+        <span>Modern Web</span><span>UI/UX</span><span>JavaScript</span>
       </div>
-      <a href="https://blueprint.shoug-tech.com" target="_blank" rel="noreferrer">Open live system</a>
     </article>
     <article class="project-card">
-      <span class="project-type">Healthcare Workflow Platform</span>
+      <div class="project-media">
+        <img src="assets/images/projects/sillah.png" alt="Sillah Health Management System screenshot" loading="lazy" />
+      </div>
       <h3>Sillah Health Management System</h3>
-      <p>Family health management platform focused on healthcare workflows and structured digital management systems.</p>
+      <p>Family health management platform focused on healthcare workflows. React interface connected to Supabase-backed data flows, authentication logic, and responsive operational screens.</p>
       <div class="project-meta">
-        <span>React architecture</span><span>Supabase integration</span><span>Authentication systems</span><span>Database-backed workflows</span>
+        <span>React</span><span>Supabase</span><span>SQL</span><span>Authentication</span>
       </div>
-      <a href="https://sillah-app.shoug-tech.com" target="_blank" rel="noreferrer">Open live system</a>
     </article>
-    <article class="project-card">
-      <span class="project-type">Knowledge Infrastructure</span>
-      <h3>Technical Database Platform</h3>
-      <p>Technical documentation and structured knowledge management platform.</p>
-      <div class="project-meta">
-        <span>Searchable systems</span><span>Documentation engineering</span><span>Information architecture</span><span>Technical organization</span>
+    <article class="project-card project-card--wide">
+      <div class="project-media">
+        <img src="assets/images/projects/acm-ctf-platform.png" alt="ACM CTF Platform screenshot" loading="lazy" />
       </div>
-      <a href="https://database.shoug-tech.com" target="_blank" rel="noreferrer">Open live system</a>
-    </article>
-    <article class="project-card">
-      <span class="project-type">Cybersecurity Event System</span>
       <h3>ACM CTF Platform</h3>
-      <p>Cybersecurity competition and event platform designed for technical engagement and participant experience.</p>
+      <p>Cybersecurity competition and event platform designed for technical engagement. Balances cybersecurity branding, participant clarity, and responsive structure.</p>
       <div class="project-meta">
-        <span>Cybersecurity branding</span><span>Responsive systems</span><span>Event organization</span><span>Modern UI</span>
+        <span>React</span><span>Cybersecurity UI</span><span>GitHub Pages</span>
       </div>
-      <a href="https://shoug-alomran.github.io/acm-ctf2-web/" target="_blank" rel="noreferrer">Open live system</a>
     </article>
   </div>
 </section>
 
 <section class="identity-section" id="capabilities">
-  <p class="eyebrow">Capabilities</p>
-  <h2>Technical range organized around system outcomes.</h2>
+  <h2 class="section-title"><span class="glow-dot"></span>Technical Domains</h2>
   <div class="capability-grid">
-    <article><h3>Frontend Systems</h3><p>React, Vite, TailwindCSS, Framer Motion, responsive interfaces, accessibility, and design systems.</p></article>
-    <article><h3>Backend & APIs</h3><p>Node.js, Express, Supabase, SQL, authentication systems, and clean API boundaries.</p></article>
-    <article><h3>Infrastructure & Deployment</h3><p>Vercel, Cloudflare Workers, GitHub Pages, Linux, GitHub workflows, and deployment-aware development.</p></article>
-    <article><h3>Documentation Systems</h3><p>MkDocs Material, search-first navigation, bilingual structures, technical content systems, and information architecture.</p></article>
-    <article><h3>Security & Architecture</h3><p>Web security assessment, penetration testing workflows, technical reporting, remediation analysis, and maintainable system design.</p></article>
+    <article>
+      <h3><span class="glow-dot"></span>Frontend Architecture</h3>
+      <p>React, JavaScript (ES6+), HTML5, CSS3, Modern Web Development.</p>
+    </article>
+    <article>
+      <h3><span class="glow-dot"></span>Backend &amp; Data</h3>
+      <p>Supabase, SQL, Relational Database Design, REST APIs.</p>
+    </article>
+    <article>
+      <h3><span class="glow-dot"></span>Infrastructure &amp; Tooling</h3>
+      <p>Git, GitHub, Cloudflare, MkDocs, Static Site Generation.</p>
+    </article>
+    <article>
+      <h3><span class="glow-dot"></span>Engineering Practice</h3>
+      <p>Requirements Engineering, UML Documentation, Clean Architecture.</p>
+    </article>
   </div>
 </section>
 
 <section class="identity-section" id="leadership">
-  <p class="eyebrow">Leadership & Activities</p>
-  <h2>Technical community work with structure and responsibility.</h2>
-  <div class="three-column">
-    <article><h3>ACM Vice President</h3><p>Supports technical initiatives, cybersecurity activities, workshops, student engagement, and organizational planning.</p></article>
-    <article><h3>Cybersecurity Initiatives</h3><p>Contributes to Capture The Flag programming, event structure, and technical community experiences.</p></article>
-    <article><h3>Educational Leadership</h3><p>Creates study systems, quizzes, revision resources, and tutoring workflows that make complex material easier to navigate.</p></article>
+  <h2 class="section-title"><span class="glow-dot"></span>Leadership &amp; Execution</h2>
+  <div class="leadership-list">
+    <article class="leadership-item">
+      <div>
+        <h3>Course Instructor &amp; Peer Tutor</h3>
+        <p class="subtitle">Academic Leadership</p>
+      </div>
+      <p>Develop and maintain interactive learning platforms for students. Created comprehensive course websites featuring structured summaries, practice exams, and technical documentation to streamline the learning process for complex engineering concepts.</p>
+    </article>
+    <article class="leadership-item">
+      <div>
+        <h3>ACM Student Chapter VP</h3>
+        <p class="subtitle">Prince Sultan University</p>
+      </div>
+      <p>Co-leading chapter initiatives, organizing technical workshops, and fostering a community of engineering excellence among peers.</p>
+    </article>
+    <article class="leadership-item">
+      <div>
+        <h3>Project Evolution</h3>
+        <p class="subtitle">Engineering Philosophy</p>
+      </div>
+      <p>Consistent track record of transforming standard university assignments into fully public, deployed systems. I prioritize better interfaces, rigorous documentation, and enhanced functionality beyond baseline requirements to build real-world products.</p>
+    </article>
   </div>
 </section>
 
-<section class="identity-section" id="approach">
-  <p class="eyebrow">Approach</p>
-  <h2>How I build: calm systems, clear decisions, durable structure.</h2>
-  <div class="approach-grid">
-    <article><span>01</span><h3>Clarity Before Complexity</h3><p>A system should reveal its structure before it asks users to trust it.</p></article>
-    <article><span>02</span><h3>Architecture Over Ornament</h3><p>Interfaces become premium when hierarchy, flow, and behavior are designed with discipline.</p></article>
-    <article><span>03</span><h3>Security-Aware By Default</h3><p>Good engineering considers trust, access, reporting, and operational risk from the beginning.</p></article>
-    <article><span>04</span><h3>Documentation As Infrastructure</h3><p>Clear documentation turns a project from a one-time delivery into a system that can grow.</p></article>
+<section class="identity-section" id="philosophy">
+  <div class="philosophy-grid">
+    <article class="philosophy-card philosophy-card--cyan">
+      <h3>Security Focus</h3>
+      <p>Deeply invested in understanding attacker methodology to build resilient systems. Focus areas include penetration testing, vulnerability assessment, ethical hacking, and responsible disclosure. Security is treated as foundational architecture, not a patch.</p>
+    </article>
+    <article class="philosophy-card philosophy-card--green">
+      <h3>Engineering Philosophy</h3>
+      <p>Code must be maintainable. Solutions should be practical over unnecessarily complex. I believe documentation is integral to engineering, not an afterthought. A system is only as good as a new developer's ability to understand and safely modify it.</p>
+    </article>
   </div>
 </section>
 
 <section class="identity-section contact-section" id="contact">
-  <p class="eyebrow">Contact</p>
-  <h2>Let’s build something structured.</h2>
-  <div class="contact-grid">
-    <a href="mailto:hello@shoug-tech.com"><span>Email</span><strong>hello@shoug-tech.com</strong></a>
-    <a href="https://github.com/Shoug-Alomran" target="_blank" rel="noreferrer"><span>GitHub</span><strong>Shoug-Alomran</strong></a>
-    <a href="https://www.linkedin.com/in/shoug-alomran/" target="_blank" rel="noreferrer"><span>LinkedIn</span><strong>Shoug Alomran</strong></a>
-    <a href="https://blueprint.shoug-tech.com" target="_blank" rel="noreferrer"><span>Blueprint Studio</span><strong>blueprint.shoug-tech.com</strong></a>
+  <div class="contact-inner">
+    <h2>Initialize Connection.</h2>
+    <p>Available for discussions on software architecture, security, and digital experiences.</p>
+    <div class="contact-cta">
+      <a href="cv/?download=1" class="gradient-button">Download Resume</a>
+    </div>
+    <div class="footer-links">
+      <a href="https://shoug-tech.com" target="_blank" rel="noreferrer">SHOUG.TECH</a>
+      <a href="https://github.com/Shoug-Alomran" target="_blank" rel="noreferrer">GitHub</a>
+      <a href="https://www.linkedin.com/in/shoug-alomran/" target="_blank" rel="noreferrer">LinkedIn</a>
+      <a href="https://blueprint.shoug-tech.com" target="_blank" rel="noreferrer">Blueprint Studio</a>
+    </div>
   </div>
 </section>

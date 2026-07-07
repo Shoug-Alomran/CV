@@ -14,17 +14,27 @@ export function ProjectCard({ project, index, featured = false }) {
       variants={fadeUp}
       className={`group rounded-2xl p-4 transition duration-300 hover:-translate-y-1 ${featured ? "surface-featured" : "surface"}`}
     >
-      <div className={`relative overflow-hidden rounded-xl bg-gradient-to-br ${imageThemes[index % imageThemes.length]}`}>
-        <div className="absolute inset-0 opacity-40 [background-image:linear-gradient(rgba(255,255,255,0.08)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.08)_1px,transparent_1px)] [background-size:26px_26px]" />
-        <div className="flex h-44 items-center justify-center sm:h-56">
-          <span className="text-4xl font-bold tracking-tight text-white/15 sm:text-6xl">
-            {project.title
-              .split(" ")
-              .map((word) => word[0])
-              .slice(0, 2)
-              .join("")}
-          </span>
-        </div>
+      <div className={`relative overflow-hidden rounded-xl ${project.image ? "" : `bg-gradient-to-br ${imageThemes[index % imageThemes.length]}`}`}>
+        {project.image ? (
+          <img
+            src={project.image}
+            alt={`${project.title} screenshot`}
+            className="h-44 w-full object-cover object-top sm:h-56"
+          />
+        ) : (
+          <>
+            <div className="absolute inset-0 opacity-40 [background-image:linear-gradient(rgba(255,255,255,0.08)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.08)_1px,transparent_1px)] [background-size:26px_26px]" />
+            <div className="flex h-44 items-center justify-center sm:h-56">
+              <span className="text-4xl font-bold tracking-tight text-white/15 sm:text-6xl">
+                {project.title
+                  .split(" ")
+                  .map((word) => word[0])
+                  .slice(0, 2)
+                  .join("")}
+              </span>
+            </div>
+          </>
+        )}
         {project.live && (
           <span className="badge-pill absolute right-3 top-3">Live</span>
         )}
