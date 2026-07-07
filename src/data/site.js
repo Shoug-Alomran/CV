@@ -71,6 +71,13 @@ export const domains = [
 
 export const leadership = [
   {
+    title: "ACM Student Chapter Vice President",
+    subtitle: "Prince Sultan University",
+    text: "Lead strategic initiatives, coordinate chapter officers, support technical events and workshops, and help strengthen student engagement across the computing community.",
+    href: "https://psu.edu.sa/en/CCIS/PSU-ACM",
+    linkLabel: "View the PSU ACM Chapter",
+  },
+  {
     title: "Course Instructor & Peer Tutor",
     subtitle: "Academic Leadership",
     text: "Mentor students through workshops, tutoring, and structured learning resources. I create course platforms, practice material, and technical documentation that make complex engineering concepts easier to understand and apply.",

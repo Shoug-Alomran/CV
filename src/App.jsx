@@ -75,7 +75,14 @@ export default function App() {
                   <h3 className="text-xl font-bold text-white">{item.title}</h3>
                   <p className="mt-1 text-sm font-medium text-accent-cyan">{item.subtitle}</p>
                 </div>
-                <p className="text-base leading-8 text-slate-400">{item.text}</p>
+                <div>
+                  <p className="text-base leading-8 text-slate-400">{item.text}</p>
+                  {item.href && (
+                    <a href={item.href} target="_blank" rel="noreferrer" className="mt-3 inline-flex text-sm font-semibold text-accent-cyan hover:text-white">
+                      {item.linkLabel} ↗
+                    </a>
+                  )}
+                </div>
               </motion.article>
             ))}
           </motion.div>
@@ -100,9 +107,12 @@ export default function App() {
             <motion.p variants={fadeUp} className="mt-5 text-lg text-slate-400">
               Let&apos;s connect around software engineering, secure systems, digital products, teaching, or meaningful problems worth solving with technology.
             </motion.p>
-            <motion.div variants={fadeUp} className="mt-9 flex justify-center">
-              <a href="/cv/?download=1" className="gradient-button">
+            <motion.div variants={fadeUp} className="mt-9 flex flex-wrap justify-center gap-3">
+              <a href="/cv/Shoug-Alomran-CV.pdf" className="gradient-button" download>
                 Download Resume <Download className="size-4" aria-hidden="true" />
+              </a>
+              <a href="/cv/index.html" target="_blank" rel="noreferrer" className="secondary-button">
+                View Interactive CV
               </a>
             </motion.div>
             <motion.div variants={fadeUp} className="mt-14 flex flex-wrap justify-center gap-x-8 gap-y-3 border-t border-white/10 pt-8 text-sm text-slate-400">

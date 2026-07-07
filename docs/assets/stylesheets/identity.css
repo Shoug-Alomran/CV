@@ -580,6 +580,18 @@ label[for="__drawer"] {
   line-height: 1.8;
 }
 
+.leadership-link {
+  display: inline-flex;
+  margin-top: 0.75rem;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--identity-cyan) !important;
+}
+
+.leadership-link:hover {
+  color: var(--identity-green) !important;
+}
+
 .philosophy-grid {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
@@ -633,6 +645,31 @@ label[for="__drawer"] {
 
 .contact-cta {
   margin: 2.25rem 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+.cv-view-button {
+  display: inline-flex;
+  min-height: 3.1rem;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--identity-border);
+  border-radius: 999px;
+  padding: 0.85rem 1.9rem;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--md-default-fg-color) !important;
+  background: var(--identity-panel);
+  transition: transform 180ms ease, border-color 180ms ease, background 180ms ease;
+}
+
+.cv-view-button:hover {
+  transform: translateY(-1px);
+  border-color: rgba(34, 211, 238, 0.45);
+  background: rgba(34, 211, 238, 0.08);
 }
 
 @media (max-width: 1100px) {

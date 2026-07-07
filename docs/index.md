@@ -110,6 +110,16 @@
   <div class="leadership-list">
     <article class="leadership-item">
       <div>
+        <h3>ACM Student Chapter Vice President</h3>
+        <p class="subtitle">Prince Sultan University</p>
+      </div>
+      <div>
+        <p>Lead strategic initiatives, coordinate chapter officers, support technical events and workshops, and help strengthen student engagement across the computing community.</p>
+        <a href="https://psu.edu.sa/en/CCIS/PSU-ACM" target="_blank" rel="noreferrer" class="leadership-link">View the PSU ACM Chapter &#8599;</a>
+      </div>
+    </article>
+    <article class="leadership-item">
+      <div>
         <h3>Course Instructor &amp; Peer Tutor</h3>
         <p class="subtitle">Academic Leadership</p>
       </div>
@@ -157,7 +167,8 @@
     <h2>Initialize Connection.</h2>
     <p>Let's connect around software engineering, secure systems, digital products, teaching, or meaningful problems worth solving with technology.</p>
     <div class="contact-cta">
-      <a href="cv/?download=1" class="gradient-button">Download Resume</a>
+      <a href="cv/Shoug-Alomran-CV.pdf" class="gradient-button" download>Download Resume</a>
+      <a href="cv/index.html" target="_blank" rel="noreferrer" class="cv-view-button">View Interactive CV</a>
     </div>
   </div>
 </section>
