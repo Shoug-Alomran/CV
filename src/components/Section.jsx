@@ -14,7 +14,10 @@ export function Section({ id, title, intro, children, className = "" }) {
         {(title || intro) && (
           <div className="mb-10 max-w-3xl md:mb-14">
             {title && (
-              <motion.h2 variants={fadeUp} className="flex items-center gap-3 section-title">
+              <motion.h2
+                variants={fadeUp}
+                className="flex items-center gap-3 section-title"
+              >
                 <span className="glow-dot" aria-hidden="true" />
                 {title}
               </motion.h2>

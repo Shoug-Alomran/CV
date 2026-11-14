@@ -1,4 +1,8 @@
-export const heroBadges = ["Software Engineering", "Cybersecurity Minor", "Founder, Blueprint Studio"];
+export const heroBadges = [
+  "Software Engineering",
+  "Cybersecurity Minor",
+  "Founder, Blueprint Studio",
+];
 
 export const footerLinks = [
   { label: "SHOUG.TECH", href: "https://shoug-tech.com" },
@@ -9,9 +13,25 @@ export const footerLinks = [
 
 export const projects = [
   {
+    title: "Fursah — AI Workforce Readiness",
+    href: "https://fursah.org",
+    repo: "https://github.com/Shoug-Alomran/AI-Powered-Workforce-Readiness-Ecosystem",
+    live: true,
+    image: "/projects/fursah.png",
+    summary:
+      "Built for the AI Readiness Hackathon: a platform connecting students, employers, and universities through verified skill evidence, explainable candidate-role matching, and workforce-readiness insights. AI is kept to bounded, role-scoped tasks, with human review of evidence and a documented DPIA.",
+    stack: [
+      "Next.js",
+      "TypeScript",
+      "Prisma",
+      "Cloudflare Workers AI",
+      "Vercel",
+    ],
+  },
+  {
     title: "SHOUG.TECH Platform",
     href: "https://shoug-tech.com",
-    repo: "https://github.com/Shoug-Alomran",
+    repo: "https://github.com/Shoug-Alomran/shoug-tech",
     live: true,
     image: "/projects/shoug-tech.png",
     summary:
@@ -19,53 +39,69 @@ export const projects = [
     stack: ["React", "MkDocs", "Firebase", "Cloudflare"],
   },
   {
+    title: "Sillah Health Management System",
+    href: "https://sillah-app.shoug-tech.com",
+    repo: "https://github.com/Shoug-Alomran/Sillah_V2",
+    live: true,
+    image: "/projects/sillah.png",
+    summary:
+      "A preventive family-health system that started as an SE201 prototype and was rebuilt from the ground up: a relational database, REST endpoints, and serverless deployment, with requirements engineering applied in SE311 and the data layer built out in CS340.",
+    stack: ["JavaScript", "REST API", "SQL", "Vercel"],
+  },
+  {
+    title: "Mini CTF Security Lab",
+    href: "https://ctf-lab.shoug-tech.com",
+    repo: "https://github.com/Shoug-Alomran/CYS401-Mini-CTF-Security-Lab",
+    live: true,
+    image: "/projects/ctf-lab.png",
+    summary:
+      "An educational capture-the-flag lab with workshops and challenges across web security, cryptography, security awareness, and ethics, including flag validation, hints, progress tracking, and a scoreboard. CYS401 semester project, graded 15/15.",
+    stack: ["JavaScript", "Web Security", "Cryptography"],
+  },
+  {
     title: "Blueprint Studio",
     href: "https://blueprint.shoug-tech.com",
-    repo: "https://github.com/Shoug-Alomran",
-    live: false,
+    repo: "https://github.com/Shoug-Alomran/Blueprint",
+    live: true,
     image: "/projects/blueprint.png",
     summary:
       "A digital studio creating professional portfolio websites and thoughtful digital solutions for students, researchers, and professionals—from early concept and architecture through deployment and documentation.",
     stack: ["Modern Web", "UI/UX", "JavaScript"],
   },
   {
-    title: "Sillah Health Management System",
-    href: "https://sillah-app.shoug-tech.com",
-    repo: "https://github.com/Shoug-Alomran",
-    live: false,
-    image: "/projects/sillah.png",
+    title: "ACM Chapter Web Platforms",
+    href: "https://acmchapter-psu.github.io/acm-psu-website/",
+    repo: "https://github.com/acmchapter-psu",
+    live: true,
+    image: "/projects/acm-psu.png",
     summary:
-      "Family health management platform focused on healthcare workflows. React interface connected to Supabase-backed data flows, authentication logic, and responsive operational screens.",
-    stack: ["React", "Supabase", "SQL", "Authentication"],
-  },
-  {
-    title: "ACM CTF Platform",
-    href: "https://psu-ctf.shoug-tech.com",
-    repo: "https://github.com/Shoug-Alomran/acm-ctf2-web",
-    live: false,
-    image: "/projects/acm-ctf-platform.png",
-    summary:
-      "Cybersecurity competition and event platform designed for technical engagement. Balances cybersecurity branding, participant clarity, and responsive structure.",
-    stack: ["React", "Cybersecurity UI", "GitHub Pages"],
+      "Designed, built, and deployed four websites now hosted on the chapter's official GitHub: the ACM PSU platform (membership applications, event roles, project case studies, events archive), the CTF 2.0 and ACM/CyberTech CTF 3.0 competition sites, and the WebForge 2026 AI-assisted web development event site.",
+    stack: [
+      "TypeScript",
+      "React",
+      "HTML/CSS",
+      "GitHub Actions",
+      "GitHub Pages",
+    ],
   },
 ];
 
 export const domains = [
   {
     title: "Full-Stack Development",
-    text: "React, JavaScript (ES6+), HTML5, CSS3, responsive interfaces, and end-to-end web application development.",
+    text: "TypeScript, JavaScript, React, Next.js, Tailwind CSS, HTML5, and CSS3, plus Java, Python, and C from coursework, for end-to-end web application development.",
   },
   {
     title: "Backend & Data",
-    text: "Firebase, Supabase, SQL, relational database design, REST APIs, authentication, progress tracking, and secure application workflows.",
+    text: "REST APIs, Node.js/Express, SQL, PostgreSQL, Prisma, Supabase, Firebase, relational database design, authentication, and secure application workflows.",
   },
   {
     title: "Architecture & Delivery",
-    text: "System design, clean architecture, Git, GitHub, Cloudflare, and deployment, with familiarity in Google Cloud and Google Search Console.",
+    text: "System design, software architecture (4+1 views, design patterns), project management, Git, GitHub Actions, Vercel, and Cloudflare (Workers AI, R2).",
   },
   {
     title: "Security & Documentation",
-    text: "Secure software development, offensive security foundations, requirements engineering, UML, and technical documentation.",
+    text: "Secure software development, penetration testing, web security, cryptography, networking (Wireshark, Packet Tracer), requirements engineering, UML, and technical documentation.",
   },
 ];
 

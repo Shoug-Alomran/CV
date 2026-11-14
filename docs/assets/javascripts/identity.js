@@ -13,7 +13,10 @@ document.addEventListener("DOMContentLoaded", () => {
       if (!active) return;
 
       links.forEach((link) => {
-        link.classList.toggle("is-active", link.getAttribute("href") === `#${active.target.id}`);
+        link.classList.toggle(
+          "is-active",
+          link.getAttribute("href") === `#${active.target.id}`,
+        );
       });
     },
     { rootMargin: "-30% 0px -60% 0px", threshold: [0.1, 0.3, 0.5] },

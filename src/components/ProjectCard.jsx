@@ -18,7 +18,9 @@ export function ProjectCard({ project, index, featured = false }) {
       variants={fadeUp}
       className={`group block rounded-2xl p-4 transition duration-300 hover:-translate-y-1 ${featured ? "surface-featured" : "surface"}`}
     >
-      <div className={`relative overflow-hidden rounded-xl ${project.image ? "" : `bg-gradient-to-br ${imageThemes[index % imageThemes.length]}`}`}>
+      <div
+        className={`relative overflow-hidden rounded-xl ${project.image ? "" : `bg-gradient-to-br ${imageThemes[index % imageThemes.length]}`}`}
+      >
         {project.image ? (
           <img
             src={project.image}
@@ -52,10 +54,15 @@ export function ProjectCard({ project, index, featured = false }) {
             aria-hidden="true"
           />
         </div>
-        <p className="mt-3 text-sm leading-7 text-slate-400">{project.summary}</p>
+        <p className="mt-3 text-sm leading-7 text-slate-400">
+          {project.summary}
+        </p>
         <div className="mt-5 flex flex-wrap gap-2">
           {project.stack.map((item) => (
-            <span key={item} className="rounded-lg border border-white/10 bg-white/[0.03] px-3 py-1.5 text-xs text-slate-300">
+            <span
+              key={item}
+              className="rounded-lg border border-white/10 bg-white/[0.03] px-3 py-1.5 text-xs text-slate-300"
+            >
               {item}
             </span>
           ))}
