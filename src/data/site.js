@@ -33,7 +33,7 @@ export const projects = [
     href: "https://shoug-tech.com",
     repo: "https://github.com/Shoug-Alomran/shoug-tech",
     live: true,
-    image: "/projects/shoug-tech.png",
+    image: "/projects/shoug-tech-2026.png",
     summary:
       "A comprehensive personal technical platform and digital garden documenting projects, cybersecurity workshops, research, and technical resources. Firebase powers the user login experience, learning-progress tracking, and community features.",
     stack: ["React", "MkDocs", "Firebase", "Cloudflare"],
@@ -43,7 +43,7 @@ export const projects = [
     href: "https://sillah-app.shoug-tech.com",
     repo: "https://github.com/Shoug-Alomran/Sillah_V2",
     live: true,
-    image: "/projects/sillah.png",
+    image: "/projects/sillah-2026.png",
     summary:
       "A preventive family-health system that started as an SE201 prototype and was rebuilt from the ground up: a relational database, REST endpoints, and serverless deployment, with requirements engineering applied in SE311 and the data layer built out in CS340.",
     stack: ["JavaScript", "REST API", "SQL", "Vercel"],
@@ -63,7 +63,7 @@ export const projects = [
     href: "https://blueprint.shoug-tech.com",
     repo: "https://github.com/Shoug-Alomran/Blueprint",
     live: true,
-    image: "/projects/blueprint.png",
+    image: "/projects/blueprint-2026.png",
     summary:
       "A digital studio creating professional portfolio websites and thoughtful digital solutions for students, researchers, and professionals—from early concept and architecture through deployment and documentation.",
     stack: ["Modern Web", "UI/UX", "JavaScript"],
